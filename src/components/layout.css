@@ -1,12 +1,14 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 article,
 aside,
@@ -64,6 +66,374 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+#imgInicio{
+  background-image: url("../images/imgDoc.svg");
+  position: absolute;
+  top: 0%;
+  z-index: -100;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#imgBlkOne{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin-top: 2%; 
+  top: 61.5vh;
+  left: 0%;
+  width: 135px;
+  height: auto;
+  border-radius: 0.25rem;
+  z-index: 5000;
+}
+#imgblkUno{
+  background-image: url("../images/blockOne.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin-top: 2%; 
+  top: 58vh;
+  left: 0%;
+  width: 150px;
+  height: 150px;
+  border-radius: 0.25rem;
+  z-index: 5000;
+}
+#imgblkUno:hover{
+  background-image: url("../images/blockOneOut.svg");
+}
+#imgblkDos{
+  background-image: url("../images/blockTwo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin-top: 2%; 
+  top: 34vh;
+  left: 15.5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 0.25rem;
+  z-index: 5000;
+}
+#imgblkDos:hover{
+  background-image: url("../images/blockTwoOut.svg");
+}
+#imgblkTri{
+  background-image: url("../images/blockTre.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin-top: 2%; 
+  top: 10vh;
+  left: 31%;
+  width: 150px;
+  height: 150px;
+  border-radius: 0.25rem;
+  z-index: 5000;
+}
+#imgblkTri:hover{
+  background-image: url("../images/blockTreOut.svg");
+}
+.boxshad{
+  margin-top: 15%;
+  word-spacing: 0.25rem;
+  line-height: 180%;
+  background-color: #DFE5E8;
+  outline-color: white;
+  border-radius: 0.5rem;
+  padding: 4%;
+  box-shadow: 0 8px 6px -3px#AEB7B8;
+  text-align: center;
+}
+.boxshad:hover{
+  box-shadow: 0 8px 6px 1px #BBC3C4;
+}
+.down {
+  margin-top: 2rem;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: relative;
+  top: 20px;
+}
+.cvimg{
+  max-width: 400px;
+  margin-bottom: 1.45rem;
+  margin: auto; 
+  position: relative;
+  top: 260px;
+}
+.mesaLab{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: -50;
+  margin-top: 5vh;
+}
+.boxshadTre{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  word-spacing: 0.25rem;
+  line-height: 180%;
+  background-color: #DFE5E8;
+  outline-color: white;
+  border-radius: 0.5rem;
+  padding: 8%;
+  box-shadow: 0 8px 6px -3px#AEB7B8;
+  text-align: center;
+}
+.boxshadTre:hover{
+  box-shadow: 0 8px 6px 1px #BBC3C4;
+}
+.nexxtbtn{
+background-color: "#9EA4AB";
+width: "300px";
+margin: "auto";
+text-align: "center";
+border-radius: "10px";
+padding: "10px";
+position: "relative";
+top: "1.5vh";
+margin-bottom: "20px";
+opacity: "0.8"
+}
+.cvdPpl{
+  position: relative;
+  bottom: 11vh;
+  left: 15%;
+  width: 70%;
+  height: auto;
+}
+.marginAutoTwo {
+  position: relative;
+  top: 30px;
+  left: 50%;
+  width: auto;
+  margin: auto;
+}
+i {
+  border: solid #ADB6A4;
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 1rem;
+}
+#bro{
+  position: relative;
+  top: 350px;
+  text-align: center;
+  font-size: 100%;
+  z-index: -10;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.marginAuto {
+  position: relative;
+  top: 400px;
+  left: 50%;
+  width: auto;
+  margin: auto;
+}
+.cwmlogo{
+  z-Index: 100; 
+  position: fixed;
+  left: 2%; 
+  top: 4%;
+  height: auto;
+  width: 12%; 
+  border-radius: 1rem;
+}
+.cwmlogoDos{
+  z-Index: 100; 
+  position: fixed;
+  left: 6%; 
+  top: 6%;
+  height: auto;
+  width: 35%; 
+  border-radius: 1rem;
+}
+#btnDos{
+  background-image: url("../images/cwmlogo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 4%;
+  top: 6%;
+  background-size: cover;
+  width: 34%;
+  height: 34%;
+  border-radius: 5%;
+}
+#btnDos:hover{
+  background-image: url("../images/cwmlogo-off.svg");
+}
+#btnInicioDos{
+  background-image: url("../images/cwmIniciologo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 13%;
+  top: 68%;
+  background-size: cover;
+  width: 15%;
+  height: 15%;
+  border-radius: 6%;
+}
+#btnInicioDos:hover{
+  background-image: url("../images/cwmIniciologo-off.svg");
+}
+#btnInicio{
+  background-image: url("../images/cwmIniciologo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 5.5%;
+  top: 18%;
+  background-size: cover;
+  width: 5%;
+  height: 5%;
+  border-radius: 15%;
+}
+#btnInicio:hover{
+  background-image: url("../images/cwmIniciologo-off.svg");
+}
+.lupaimg{
+  background-image: url("../images/imglupa.svg");
+  border-radius: 12px;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  z-index: -100;
+}
+.boxshadimg{
+  display: inline-block;
+  height: auto;
+  margin: 5% 5% 5% 5%;
+  z-index: 100;
+  word-spacing: 0.25rem;
+  line-height: 180%;
+  background-color:rgba(0, 0, 0, 0.3);
+  outline-color: white;
+  border-radius: 0.5rem;
+  padding: 5%;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.4);
+}
+.boxshadimg:hover{
+  box-shadow: rgba(0, 0, 0, 0.6);
+}
+#plogoOne{
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+#plogoTwo{
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+#plogoTre{
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+#plogoFor{
+  width: 100px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.headerHone{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+  word-spacing: 0.6rem;
+  color: #F5F5F5;
+  font-size: 50px;
+  display: block;
+  position: absolute;
+  left: 14%;
+  top: 20%;
+  width: 35%;
+  height: 20%;
+  text-align: center;
+}
+.glow:hover {
+  text-shadow: 3px 3px 6px #C3C7C8, 0 0 50px #B8C8D0, 0 0 10px #D1DDE3;
+}
+.headerText{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+  word-spacing: 0.6rem;
+  color: #586D78;
+  font-size: 23px;
+  display: block;
+  position: absolute;
+  left: 14%;
+  top: 33%;
+  width: 35%;
+  height: 20%;
+  text-align: center;
+}
+#imgwhats{
+  position: fixed;
+  right: 5%;
+  height: 2rem;
+  width: auto;
+  top: 4%;
+  border-radius: 0.25rem;
+}
+#imglinkin{
+  position: fixed;
+  right: 2%;
+  height: 2rem;
+  width: auto;
+  top: 4%;
+  border-radius: 0.25rem;
+}
+#imgfb{
+  position: fixed;
+  right: 5%;
+  height: 2rem;
+  width: auto;
+  top: 10%;
+  border-radius: 0.25rem;
+}
+#imgtwit{
+  position: fixed;
+  right: 2%;
+  height: 2rem;
+  width: auto;
+  top: 10%;
+  border-radius: 0.25rem;
+}
+.boxshadTwo{
+  word-spacing: 0.25rem;
+  line-height: 180%;
+  background-color: #DFE5E8;
+  outline-color: white;
+  border-radius: 0.5rem;
+  margin-top: 170px;
+  padding: 8%;
+  box-shadow: 0 8px 6px -3px#AEB7B8;
+  text-align: center;
+}
+.boxshadTwo:hover{
+  box-shadow: 0 8px 6px 1px #BBC3C4;
+}
 mark {
   background-color: #ff0;
   color: #000;
@@ -94,7 +464,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
 figure {
@@ -185,9 +555,12 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
-  box-sizing: border-box;
-  overflow-y: scroll;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  background-color: #F5F5F5;
+  background-image: linear-gradient(to bottom right, #F5F5F5, #FFFFFF);
 }
 * {
   box-sizing: inherit;
@@ -200,7 +573,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -615,8 +988,1097 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+.blockOne{
+  position: relative;
+  top: 70vh;
+}
+.blockTwo{
+  width: 55%;
+  position: relative;
+  left: 0%;
+  margin-top: 8%;
+  display: inline-block;
+  vertical-align: top;
+}
+.boxOne{
+  width: 40%;
+  position: relative;
+  display: inline-block;
+}
+.boxTwo{
+  position: relative;
+  margin: auto;
+  height: 4950px
+}
+.hOne{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  color: #728B96;
+  margin-bottom: 5vh;
+}
+.hTwo{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  color: #728B96;
+  margin-bottom: 5vh;
+  margin-bottom: -11vh;
+  bottom: 22vh;
+}
+#imgInicioDos{
+  background-image: url("../images/imgNext.svg");
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin-bottom: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#boxFor{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  bottom: 30.5vh;
+  z-index: -10;
+  word-spacing: 0.25rem;
+  line-height: 180%;
+  background-color: #DFE5E8;
+  outline-color: white;
+  border-radius: 0.5rem;
+  padding: 8%;
+  box-shadow: 0 8px 6px -3px#AEB7B8;
+  text-align: center;
+}
+#boxFor:hover{
+  box-shadow: 0 8px 6px 1px #BBC3C4;
+}
+#linkMargin{
+  position: relative; 
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px
+}
+#wow{
+  color: #1f89a9;
+}
+#footerLow{
+  position: relative;
+  top: 2vh;
+}
+#footerLowTwo{
+  position: relative;
+  top: 95vh;
+  left: 2vw;
+}
+.lastdiv{
+  background-color: #9EA4AB;
+  opacity: 0.8;
+  width: 210px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  /* padding-bottom: 0px; */
+  position: relative;
+  top: 1.5vh;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.boxCenter{
+  width: 80%;
+  margin: auto;
+  color: whitesmoke;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 120%;
+  text-align: center;
+}
+.cvdPpl{
+  position: relative;
+  bottom: 15vh;
+  left: 23%;
+  width: 55%;
+  height: auto;
+}
+#pgTwotxtOne{
+  position: fixed;
+  font-size: 18px;
+  left: 45%;
+  top: 4vh;
+  width: 45%;
+  text-align: center; 
+}
+#pgTwotxtTwo{
+  position: fixed;
+  font-size: 30px;
+  left: 38%;
+  top: 13vh;
+  width: 42%;
+  text-align: center;
+}
+div.pgTwotxtTwo p{
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.tracking-out-contract-bck:hover {
+  -webkit-animation: tracking-out-contract-bck 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) reverse backwards;
+          animation: tracking-out-contract-bck 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) reverse backwards;
+}
+.bounce-bottom {
+  -webkit-animation: bounce-bottom 2s infinite alternate-reverse both;
+          animation: bounce-bottom 2s infinite alternate-reverse both;
+}
+.shake-horizontal {
+  -webkit-animation: shake-horizontal 7s cubic-bezier(0.455, 0.030, 0.515, 0.755) infinite both;
+          animation: shake-horizontal 7s cubic-bezier(0.455, 0.030, 0.515, 0.755) infinite both;
+          animation-delay: 5.5s;
+}
+.pulsate-bck {
+  -webkit-animation: pulsate-bck 1.3s ease-in-out infinite both;
+          animation: pulsate-bck 1.3s ease-in-out infinite both;
+}
+.bounce-right {
+	-webkit-animation: bounce-right 4s 1s infinite alternate-reverse both;
+	        animation: bounce-right 4s 1s infinite alternate-reverse both;
+}
+.shake-vertical{-webkit-animation:shake-vertical .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-vertical .8s cubic-bezier(.455,.03,.515,.955) both}
+.wobble-hor-bottom:hover{-webkit-animation:wobble-hor-bottom 2s infinite both;animation:wobble-hor-bottom 2s infinite both}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-6-3 11:29:51
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+ @-webkit-keyframes shake-vertical{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}10%,30%,50%,70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}20%,40%,60%{-webkit-transform:translateY(8px);transform:translateY(8px)}80%{-webkit-transform:translateY(6.4px);transform:translateY(6.4px)}90%{-webkit-transform:translateY(-6.4px);transform:translateY(-6.4px)}}@keyframes shake-vertical{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}10%,30%,50%,70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}20%,40%,60%{-webkit-transform:translateY(8px);transform:translateY(8px)}80%{-webkit-transform:translateY(6.4px);transform:translateY(6.4px)}90%{-webkit-transform:translateY(-6.4px);transform:translateY(-6.4px)}}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-5-25 11:13:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+ @-webkit-keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}@keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-5-18 9:56:20
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes bounce-right {
+  0% {
+    -webkit-transform: translateX(48px);
+            transform: translateX(48px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateX(26px);
+            transform: translateX(26px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateX(13px);
+            transform: translateX(13px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateX(6.5px);
+            transform: translateX(6.5px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-right {
+  0% {
+    -webkit-transform: translateX(48px);
+            transform: translateX(48px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateX(26px);
+            transform: translateX(26px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateX(13px);
+            transform: translateX(13px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateX(6.5px);
+            transform: translateX(6.5px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-4-26 18:24:1
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation pulsate-bck
+ * ----------------------------------------
+ */
+ @-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-4-26 18:18:51
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shake-horizontal
+ * ----------------------------------------
+ */
+ @-webkit-keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  80% {
+    -webkit-transform: translateX(16px);
+            transform: translateX(16px);
+  }
+  90% {
+    -webkit-transform: translateX(-16px);
+            transform: translateX(-16px);
+  }
+}
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  80% {
+    -webkit-transform: translateX(16px);
+            transform: translateX(16px);
+  }
+  90% {
+    -webkit-transform: translateX(-16px);
+            transform: translateX(-16px);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-4-26 18:13:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-bottom
+ * ----------------------------------------
+ */
+ @-webkit-keyframes bounce-bottom {
+  0% {
+    -webkit-transform: translateY(65px);
+            transform: translateY(65px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(44px);
+            transform: translateY(44px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(26px);
+            transform: translateY(26px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(14px);
+            transform: translateY(14px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-bottom {
+  0% {
+    -webkit-transform: translateY(65px);
+            transform: translateY(65px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(44px);
+            transform: translateY(44px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(32px);
+            transform: translateY(32px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(26px);
+            transform: translateY(26px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(14px);
+            transform: translateY(14px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-4-26 14:37:32
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-out-contract-bck
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+            transform: translateZ(-500px);
+    opacity: 0;
+  }
+}
+@keyframes tracking-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+            transform: translateZ(-500px);
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .headerHone {
+      width: 60%;
+      font-size: 30px;
+    }
+    #pgTwotxtOne{
+      font-size: 20px;
+      left: 3%;
+      top: 9vh;
+      width: 85%;
+    }
+    #pgTwotxtTwo{
+      left: 58%;
+      top: 38%;
+      font-size: 19px;
+      background-color: #9EA4AB;
+      opacity: 0.8;
+      border-radius: 10px;
+    }
+    #btnInicioDos{
+      left: 14%;
+      top: 68%;
+      width: 30%;
+    }
+    .cvdPpl {
+      position: relative;
+      bottom: 11vh;
+      left: 17px;
+      /* margin: auto; */
+      width: 90%;
+      height: auto;
+    }
+    #imgInicio {
+      min-height: 81vh;
+    }
+    #footerLowTwo {
+      top: 96vh;
+      left: 2vw;
+      font-size: 11px;
+    }
+    .headerText{
+      overflow-y: auto;
+      height: 50%;
+      width: 60%;
+      padding: 5%;
+      outline: 5px dotted #afd136;
+      scrollbar-base-color: #b2cfd6;
+    }
+    .headerText::-webkit-scrollbar-track
+    {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      box-shadow: rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #cae8b2;
+    }
+    .headerText::-webkit-scrollbar
+    {
+      width: 12px;
+      background-color: #cae8b2;
+    }
+
+    .headerText::-webkit-scrollbar-thumb
+    {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.08);
+      box-shadow: inset 0 0 6px rgba(0,0,0,.08);
+      background-color: #afd136;
+    }
+    .blockdiv{
+      position: absolute;
+      width: 100%;
+      top: 72%;
+    }
+    #btnDos{
+      left: 8%;
+      top: 35%;
+      width: 43%;
+      height: 16%;
+    }
+    #imgBlkOne{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; 
+      top: 279px;
+      left: 4%;
+      width: 89px;
+      height: auto;
+      border-radius: 0.25rem;
+      z-index: 5000;
+    }
+    #imgBlkTwo{
+      background-image: url("../images/blockTwo.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; 
+      margin-top: 3%; 
+      width: 5%;
+      border-radius: 0.25rem;
+      z-index: 5000;
+    }
+    #imgBlkTre{
+      background-image: url("../images/blockTre.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; 
+      margin-top: 3%; 
+      width: 10%;
+      border-radius: 0.25rem;
+      z-index: 5000;
+    }
+    #linkMargin{
+      text-align: center;
+    }
+    .cwmlogo {
+      width: 16%;
+    }
+    #btnInicio {
+      top: 17%;
+      left: 14%;
+      width: 17%;
+      display: none;
+    }
+    #imglinkin {
+      height: 5%;
+      right: 1%;
+    }
+    #imgfb {
+      height: 5%;
+      right: 1%;
+      top: 18%;
+    }
+    #imgwhats {
+      height: 5%;
+      right: 1%;
+      top: 25%;
+    }
+    #imgtwit {
+      height: 5%;
+      top: 11%;
+      right: 1%;
+    }
+    .blockdiv{
+      position: relative;
+      width: 100%;
+      top: 80%;
+    }
+    .headerHone {
+      top: 7%;
+      height: 10%;
+    }
+    .headerText {
+      left: 7%;
+      top: 22%;
+    }
+    .boxOne {
+      width: 100%;
+      margin: auto;
+    }
+    .blockTwo{
+     width: 100%;
+    }
+    #bro{
+      top: 295px;
+    }
+    .boxTwo{
+      height: 6830px
+    }
+    #linkMargin {
+      position: relative;
+      left: 0%;
+      bottom: 15px;
+      padding: 6px;
+      border-radius: 5px;
+    }
+    #imgBlkOne {
+      top: 279px;
+  }
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #imgBlkOne {
+      top: 62vh;
+    }
+    #pgTwotxtTwo {
+      left: 57%;
+    }
+    #bro {
+      top: 350px;
+    }
+    .cvimg {
+      top: 280px;
+    }
+    .boxshadTwo {
+      margin-top: 227px;
+    }
+    .hOne {
+      margin-top: 6vh;
+    }
+    #boxFor {
+      bottom: 19.5vh;
+    }
+    .hTwo {
+      bottom: 18vh;
+    }
+    .lastdiv {
+      top: 3.5vh;
+    }
+    #btnDos {
+      left: 3%;
+      top: 39%;
+      width: 53%;
+      height: 14%;
+    }
+    #btnInicioDos {
+      left: 13%;
+      top: 64%;
+      width: 32%;
+      height: 10%;
+    }
+    .cvdPpl {
+      bottom: 10vh;
+    }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #imgBlkOne {
+      top: 450px;
+      left: 10.5%;
+    }
+    #bro {
+      top: 408px;
+    }
+    .cvimg {
+      top: 335px;
+    }
+    .boxshadTwo {
+      margin-top: 275px;
+    }
+    .hOne {
+      margin-bottom: 0vh;
+    }
+    .boxTwo{
+      height: 6250px
+    }
+    #pgTwotxtTwo {
+      left: 57%;
+    }
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #imgBlkOne {
+      top: 499px;
+      left: 1%;
+      width: 124px;
+    }
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #imgBlkOne {
+      top: 578px;
+      margin: auto;
+      left: auto;
+      width: 30vw;
+    }
+    #bro {
+      top: 516px;
+    }
+    .boxshadTwo {
+      margin-top: 370px;
+    }
+    .cvimg {
+      top: 433px;
+    }
+    .hOne {
+      margin-bottom: 2vh;
+      margin-top: 24%;
+    }
+    .hTwo {
+      bottom: 14vh;
+    }
+    .cvdPpl {
+      bottom: 7vh;
+    }
+    #boxFor {
+      bottom: 13.5vh;
+    }
+    .boxTwo {
+      height: 6478px;
+    }
+    #pgTwotxtTwo {
+      font-size: 27px;
+      width: 45%;
+      left: 53%;
+      top: 35%;
+    }
+    #btnDos {
+      left: 3%;
+      top: 35%;
+      width: 48%;
+      height: 12%;
+    }
+    #btnInicioDos {
+      left: 14%;
+      top: 68%;
+      width: 28%;
+      height: 8%;
+    }
+    #pgTwotxtOne {
+      left: 1%;
+    }
+}
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .cwmlogo {
+      width: 23%;
+    }
+    .headerHone {
+      font-size: 64px;
+      left: 29%;
+    }
+    .headerText {
+      font-size: 23px;
+      left: 27%;
+      width: 43%;
+    }
+    #imgBlkOne {
+      top: 68.5vh;
+      left: 21%;
+    }
+    .hOne {
+      margin-top: 7vh;
+      margin-bottom: 1vh;
+    }
+    #bro {
+      top: 630px;
+    }
+    .hTwo {
+      bottom: 16vh;
+    }
+    .boxTwo {
+      top: 16vh;
+    }
+    .boxshadTwo {
+      margin-top: 450px;
+    }
+    .cvimg {
+      top: 540px;
+    }
+    .cvdPpl {
+      bottom: 9vh;
+    }
+    #boxFor {
+      bottom: 17.5vh;
+    }
+    .boxTwo {
+      height: 5250px;
+    }
+    #btnInicio {
+      left: 7.5%;
+      top: 16%;
+      width: 10%;
+      z-index: 10;
+    }
+    #imgwhats {
+      right: 15%;
+      height: 4rem;
+      top: 4%;
+      z-index: 10;
+    }
+    #imglinkin {
+      right: 5%;
+      height: 4rem;
+      top: 4%;
+      z-index: 10;
+    }
+    #imgfb {
+      right: 15%;
+      height: 4rem;
+      top: 12%;
+      z-index: 10;
+    }
+    #imgtwit {
+      right: 5%;
+      height: 4rem;
+      top: 12%;
+      z-index: 10;
+    }
+    #btnDos {
+      left: 4%;
+      top: 22%;
+      width: 34%;
+      height: 13%;
+    }
+    #pgTwotxtTwo {
+      left: 45%;
+      top: 22vh;
+      width: 48%;
+    }
+    #pgTwotxtOne {
+      font-size: 29px;
+      left: 14%;
+      top: 4vh;
+      width: 51%;
+    }
+    #btnInicioDos {
+      left: 9%;
+      top: 68%;
+      width: 26%;
+      height: 13%;
+    }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .headerText {
+      font-size: 38px;
+      left: 21%;
+      width: 51%;
+      top: 28%;
+    }
+    #imgBlkOne {
+      top: 75vh;
+      left: 18%;
+      width: 186px;
+    }
+    .headerHone {
+      font-size: 121px;
+      left: 21%;
+      width: 51%;
+      top: 14%;
+    }  
+    #bro {
+      top: 810px;
+    }
+    .boxshadTwo {
+      margin-top: 600px;
+    }
+    .cvimg {
+      top: 710px;
+    }
+    .cvdPpl {
+      bottom: 8vh;
+    }
+    #boxFor {
+      bottom: 15.5vh;
+    }
+    .hTwo {
+      bottom: 14vh;
+    }
+    .boxTwo {
+      height: 5650px;
+    }
+    #pgTwotxtTwo {
+      font-size: 36px;
+      left: 41%;
+      top: 26vh;
+      width: 58%;
+    }
+    #btnDos {
+      top: 24%;
+    }
+    #pgTwotxtOne {
+      font-size: 43px;
+      left: 9%;
+      top: 5vh;
+      width: 57%;
+    }
+    #imgwhats {
+      right: 13%;
+      height: 5rem;
+      top: 4%;
+    }
+    #imglinkin {
+      right: 3%;
+      height: 5rem;
+      top: 4%;
+    }
+    #imgfb {
+      right: 13%;
+      height: 5rem;
+      top: 12%;
+    }
+    #imgtwit {
+      right: 3%;
+      height: 5rem;
+      top: 12%;
+    }
 }
