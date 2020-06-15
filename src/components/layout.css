@@ -1603,7 +1603,8 @@ div.pgTwotxtTwo p{
       font-size: 11px;
     }
     .headerText{
-      overflow-y: auto;
+      /* overflow-y: auto;*/
+      font-size: 13.5px;
       height: 50%;
       width: 60%;
       padding: 5%;
@@ -1843,6 +1844,10 @@ div.pgTwotxtTwo p{
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    .headerText {
+      /* overflow-y: auto; */
+      font-size: 19px;
+    }
     #imgBlkOne {
       top: 578px;
       margin: auto;
